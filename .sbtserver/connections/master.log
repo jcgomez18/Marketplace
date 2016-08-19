@@ -1,13 +1,76 @@
-New log file opened at Thu Aug 18 17:33:18 COT 2016 by 9032@ISIS2503-0069
-Taking next connection to: 57220
-New client attempting to connect on port: 57221-57220
-  Address = /172.24.42.64:57220
-This client on port 57221 has uuid 95a08be4-d3b1-4f2f-994b-030334f794af configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
-Connected Clients: activator-95a08be4-d3b1-4f2f-994b-030334f794af
-Taking next connection to: 57220
+New log file opened at Thu Aug 18 18:06:05 COT 2016 by 9112@ISIS2503-0069
+Taking next connection to: 57488
+New client attempting to connect on port: 57489-57488
+  Address = /172.24.42.64:57488
+This client on port 57489 has uuid 1f597688-dea7-4f5d-b422-e234f38a042a configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-1f597688-dea7-4f5d-b422-e234f38a042a
+Taking next connection to: 57488
 Checking to see if clients are empty...
-No non-daemon clients connected after 3 min. Shutting down.
-Server socket thread exiting.
-0 clients open, will close them...
-All client sockets have been closed.
-Closing the 9032@ISIS2503-0069 logs at Thu Aug 18 17:36:19 COT 2016, goodbye.
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 57488
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 57488
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 57488
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 57488
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 57488
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 57488
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 57488
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 57488
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 57488
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 57488
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 57488
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 57488
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 57488
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 57488
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 57488
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 57488
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 57488
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 57488
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 57488
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 57488
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 57488
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 57488
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 57488

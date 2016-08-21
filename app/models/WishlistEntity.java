@@ -48,38 +48,12 @@ public class WishlistEntity extends Model{
         this.username = username;
     }
  
-    public Integer getStock() {
-        return stock;
-    }
- 
-    public void setStock(Integer stock) {
-        this.stock = stock;
-    }
- 
-    public Float getPrice() {
-        return price;
-    }
- 
-    public void setPrice(Float price) {
-        this.price = price;
-    }
- 
-    public Boolean getAvailable() {
-        return available;
-    }
- 
-    public void setAvailable(Boolean available) {
-        this.available = available;
-    }
- 
+   
     @Override
     public String toString() {
-        return "ProductEntity{" +
+        return "WhishlistEntity{" +
                 "id=" + id +
-                ", name='" + name + '\'' +
-                ", stock=" + stock +
-                ", price=" + price +
-                ", available=" + available +
+                ", username='" + username +
                 '}';
     }
 }

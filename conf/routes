@@ -13,6 +13,9 @@ GET     /message                    controllers.AsyncController.message
 
 GET /products               controllers.ProductController.getProducts
 POST /products				controllers.ProductController.createProduct
+GET   /product/:id         controllers.ProductController.getProduct(id: Long)
+
+
 
 #WishListController
 

@@ -1,5 +1,5 @@
-New log file opened at Fri Aug 19 16:19:56 COT 2016 by 5332@ISIS2503-0069
-jvm 5332@ISIS2503-0069
+New log file opened at Sat Aug 20 15:25:38 COT 2016 by 4344@ISIS2503-0069
+jvm 4344@ISIS2503-0069
 jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.102-b14
 jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
 jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
@@ -27,7 +27,7 @@ sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.Jvm
   :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
 [Loading] Done in C:\Users\da.rodriguez15\Documents\414545\Marketplace\project, returning: (marketplace-build)
 Loading project definition from C:\Users\da.rodriguez15\Documents\414545\Marketplace\project
-Running task... Cancel: sbt.TaskCancellationStrategy$Null$@45023be6, check cycles: false
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@2f2306f6, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -67,127 +67,10 @@ Set current project to Marketplace (in build file:/C:/Users/da.rodriguez15/Docum
 > iflast shell
 > server-send-ready-for-request
 > server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@688d61ea, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Total time: 29 s, completed 19-ago-2016 16:21:32
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/C:/Users/da.rodriguez15/Documents/414545/Marketplace/}root/compile:discoveredMainClasses
-Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@77ce4e1d, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Total time: 6 s, completed 19-ago-2016 16:21:40
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/C:/Users/da.rodriguez15/Documents/414545/Marketplace/}root/compile:mainClass
-Evaluating tasks: compile:mainClass
-Running task... Cancel: sbt.server.ServerTaskCancellation@228dc256, check cycles: false
-Total time: 0 s, completed 19-ago-2016 16:21:40
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/C:/Users/da.rodriguez15/Documents/414545/Marketplace/}root/compile:discoveredMainClasses
-Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@2038b763, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Total time: 9 s, completed 19-ago-2016 16:21:50
-> server-post-command-cleanup
-> server-handle-next-server-request
-> backgroundRun
-Evaluating tasks: compile:backgroundRun
-Running task... Cancel: sbt.server.ServerTaskCancellation@3d95f094, check cycles: false
-Total time: 1 s, completed 19-ago-2016 16:22:05
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/C:/Users/da.rodriguez15/Documents/414545/Marketplace/}root/*:playForkConfig
-Evaluating tasks: *:playForkConfig
-Running task... Cancel: sbt.server.ServerTaskCancellation@1cfa16d, check cycles: false
-Total time: 1 s, completed 19-ago-2016 16:22:28
-> server-post-command-cleanup
-> server-handle-next-server-request
-> root/playForkNotifyStart http://localhost:9000
-Evaluating tasks: *:playForkNotifyStart
-Running task... Cancel: sbt.server.ServerTaskCancellation@6fc38705, check cycles: false
-Total time: 0 s, completed 19-ago-2016 16:22:49
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/C:/Users/da.rodriguez15/Documents/414545/Marketplace/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@6a569e4f, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Copy resource mappings: 
-	(C:\Users\da.rodriguez15\Documents\414545\Marketplace\conf\application.conf,C:\Users\da.rodriguez15\Documents\414545\Marketplace\target\scala-2.11\classes\application.conf)
-	(C:\Users\da.rodriguez15\Documents\414545\Marketplace\conf\logback.xml,C:\Users\da.rodriguez15\Documents\414545\Marketplace\target\scala-2.11\classes\logback.xml)
-	(C:\Users\da.rodriguez15\Documents\414545\Marketplace\conf\routes,C:\Users\da.rodriguez15\Documents\414545\Marketplace\target\scala-2.11\classes\routes)
-Warning: node.js detection failed, sbt will use the Rhino based Trireme JavaScript engine instead to run JavaScript assets compilation, which in some cases may be orders of magnitude slower than using node.js.
-Total time: 10 s, completed 19-ago-2016 16:26:40
-> server-post-command-cleanup
-> server-handle-next-server-request
 Done executing sbt server engine, result Right(Exit(0))
 Closing listening server socket
 Waiting for socket thread
 Waiting for request processor thread
 Waiting for command engine result
 Returning control to sbt launcher with result Exit(0)
-Closing the 5332@ISIS2503-0069 logs at Fri Aug 19 16:37:26 COT 2016, goodbye.
+Closing the 4344@ISIS2503-0069 logs at Sat Aug 20 15:26:09 COT 2016, goodbye.

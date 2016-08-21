@@ -31,6 +31,30 @@ public class ProductController  extends Controller
     }
 	
 	
+	
+	public CompletionStage<Result> getProduct(Long id) {
+        MessageDispatcher jdbcDispatcher = AkkaDispatcher.jdbcDispatcher;
+         
+        return CompletableFuture.
+                supplyAsync(
+                        () -> {
+                        	
+                            return ProductEntity.FINDER.byId(id);
+                        }
+                        ,jdbcDispatcher)
+                .thenApply(
+                        productEntities -> {
+                            return ok(toJson(productEntities));
+                        }
+                );
+    }
+	public void delete(Long id)
+	{
+		 ProductEntity product =  ProductEntity.FINDER.byId(id);
+		 product.delete();
+	}
+	
+	
 	public CompletionStage<Result> createProduct(){
         MessageDispatcher jdbcDispatcher = AkkaDispatcher.jdbcDispatcher;
         JsonNode nProduct = request().body().asJson();

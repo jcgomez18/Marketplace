@@ -1,5 +1,5 @@
-New log file opened at Sat Aug 20 15:25:38 COT 2016 by 4344@ISIS2503-0069
-jvm 4344@ISIS2503-0069
+New log file opened at Sat Aug 20 22:27:28 COT 2016 by 4340@ISIS2503-65
+jvm 4340@ISIS2503-65
 jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.102-b14
 jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
 jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
@@ -7,16 +7,16 @@ Starting event engine
 Starting sbt command engine
 Waiting for sbt command engine
 Command engine arguments=List()
-Command engine baseDirectory=C:\Users\da.rodriguez15\Documents\414545\Marketplace
+Command engine baseDirectory=C:\Users\fa.vera10\Documents\GitHub\Marketplace
 Command engine initial remaining commands List(--initialize, onFailure load-failed, boot, server-send-ready-for-request, server-handle-next-server-request)
 > --initialize
 > initialize
 > onFailure load-failed
 > boot
 > reload
-[Loading] Scanning directory C:\Users\da.rodriguez15\Documents\414545\Marketplace\project
+[Loading] Scanning directory C:\Users\fa.vera10\Documents\GitHub\Marketplace\project
 [Loading] Found non-root projects 
-[Loading] Done in C:\Users\da.rodriguez15\Documents\414545\Marketplace\project, returning: ()
+[Loading] Done in C:\Users\fa.vera10\Documents\GitHub\Marketplace\project, returning: ()
 deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))))
   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.JUnitXmlReportPlugin)
 sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
@@ -25,9 +25,9 @@ sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.Jvm
   :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.JUnitXmlReportPlugin)
   :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
   :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
-[Loading] Done in C:\Users\da.rodriguez15\Documents\414545\Marketplace\project, returning: (marketplace-build)
-Loading project definition from C:\Users\da.rodriguez15\Documents\414545\Marketplace\project
-Running task... Cancel: sbt.TaskCancellationStrategy$Null$@2f2306f6, check cycles: false
+[Loading] Done in C:\Users\fa.vera10\Documents\GitHub\Marketplace\project, returning: (marketplace-build)
+Loading project definition from C:\Users\fa.vera10\Documents\GitHub\Marketplace\project
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@8eb0b84, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -46,7 +46,7 @@ All initially invalidated sources: Set()
 
 Copy resource mappings: 
 	
-[Loading] Scanning directory C:\Users\da.rodriguez15\Documents\414545\Marketplace
+[Loading] Scanning directory C:\Users\fa.vera10\Documents\GitHub\Marketplace
 [Loading] Found root project root w/ remaining 
 deducing auto plugins based on known facts Set(Atom(com.typesafe.sbt.packager.archetypes.jar.LauncherJarPlugin), Atom(play.sbt.PlayJava), Atom(play.ebean.sbt.PlayEbean), Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(sbt.plugins.SerializersPlugin))), Clause(Atom(play.sbt.Play),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging))), Clause(Atom(play.sbt.Play),Set(Atom(play.sbt.routes.RoutesCompiler))), Clause(Atom(play.sbt.Play),Set(Atom(play.twirl.sbt.SbtTwirl))), Clause(Atom(play.sbt.Play),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(play.sbt.PlayAkkaHttpServer),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.PlayJava),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.PlayLayoutPlugin),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.PlayLogback),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.PlayNettyServer),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.PlayScala),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.routes.RoutesCompiler),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(play.twirl.sbt.SbtTwirl),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.AkkaAppPackaging),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.docker.DockerPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.archetypes.jar.ClasspathJarPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.archetypes.jar.LauncherJarPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.debian.DebianDeployPlugin),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin))), Clause(Atom(com.typesafe.sbt.packager.debian.DebianPlugin),Set(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin))), Clause(Atom(com.typesafe.sbt.packager.debian.JDebPackaging),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin))), Clause(Atom(com.typesafe.sbt.packager.docker.DockerPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerDeployPlugin),Set(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin))), Clause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.typesafe.sbt.packager.rpm.RpmDeployPlugin),Set(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin))), Clause(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin),Set(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin))), Clause(Atom(com.typesafe.sbt.packager.universal.UniversalDeployPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin),Set(Atom(com.typesafe.sbt.SbtNativePackager))), Clause(Atom(com.typesafe.sbt.packager.windows.WindowsDeployPlugin),Set(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin))), Clause(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.jse.SbtJsEngine),Set(Atom(com.typesafe.sbt.web.SbtWeb))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine))), Clause(Atom(sbt.plugins.BackgroundRunPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.coffeescript.SbtCoffeeScript),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.less.SbtLess),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.jshint.SbtJSHint),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.rjs.SbtRjs),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.digest.SbtDigest),Set(Atom(com.typesafe.sbt.web.SbtWeb))), Clause(Atom(com.typesafe.sbt.mocha.SbtMocha),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(org.irundaia.sbt.sass.SbtSassify),Set(Atom(com.typesafe.sbt.web.SbtWeb))), Clause(Atom(com.typesafe.play.sbt.enhancer.PlayEnhancer),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(play.ebean.sbt.PlayEbean),Set(Atom(com.typesafe.play.sbt.enhancer.PlayEnhancer))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(And(Set(Atom(sbt.plugins.BackgroundRunPlugin), Atom(play.sbt.Play), Atom(sbt.plugins.SerializersPlugin))),Set(Atom(play.sbt.forkrun.PlayForkRun))), Clause(Atom(play.sbt.Play),Set(Atom(play.sbt.PlayLayoutPlugin))), Clause(Atom(play.sbt.Play),Set(Atom(play.sbt.PlayLogback))), Clause(Atom(play.sbt.Play),Set(Atom(play.sbt.PlayNettyServer))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine))), Clause(Atom(com.typesafe.sbt.jse.SbtJsEngine),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.InteractionServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SendEventServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SerializersPlugin))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.coffeescript.SbtCoffeeScript))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.less.SbtLess))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.jshint.SbtJSHint))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.rjs.SbtRjs))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(com.typesafe.sbt.digest.SbtDigest))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.mocha.SbtMocha))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(org.irundaia.sbt.sass.SbtSassify))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(com.typesafe.play.sbt.enhancer.PlayEnhancer)))))
   :: deduced result: Matched(sbt.plugins.CorePlugin,play.ebean.sbt.PlayEbean,play.sbt.PlayJava,com.typesafe.sbt.packager.archetypes.jar.LauncherJarPlugin,com.typesafe.play.sbt.enhancer.PlayEnhancer,com.typesafe.sbt.packager.archetypes.JavaAppPackaging,sbt.plugins.InteractionServicePlugin,sbt.plugins.SendEventServicePlugin,play.sbt.Play,sbt.plugins.SerializersPlugin,sbt.plugins.IvyPlugin,com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging,play.twirl.sbt.SbtTwirl,com.typesafe.sbt.packager.rpm.RpmPlugin,sbt.plugins.JvmPlugin,com.typesafe.sbt.packager.windows.WindowsPlugin,play.sbt.PlayNettyServer,play.sbt.PlayLayoutPlugin,play.sbt.routes.RoutesCompiler,play.sbt.PlayLogback,com.typesafe.sbt.packager.docker.DockerPlugin,com.typesafe.sbt.jse.SbtJsTask,com.typesafe.sbt.packager.debian.DebianPlugin,com.typesafe.sbt.jshint.SbtJSHint,sbt.plugins.JUnitXmlReportPlugin,com.typesafe.sbt.mocha.SbtMocha,com.typesafe.sbt.packager.linux.LinuxPlugin,com.typesafe.sbt.less.SbtLess,com.typesafe.sbt.packager.universal.UniversalPlugin,com.typesafe.sbt.rjs.SbtRjs,com.typesafe.sbt.jse.SbtJsEngine,com.typesafe.sbt.coffeescript.SbtCoffeeScript,sbt.plugins.BackgroundRunPlugin,play.sbt.forkrun.PlayForkRun,com.typesafe.sbt.web.SbtWeb,com.typesafe.sbt.SbtNativePackager,org.irundaia.sbt.sass.SbtSassify,com.typesafe.sbt.digest.SbtDigest)
@@ -60,12 +60,234 @@ sorting: ns: List(sbt.plugins.CorePlugin, play.ebean.sbt.PlayEbean, play.sbt.Pla
   :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.packager.docker.DockerPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin, com.typesafe.play.sbt.enhancer.PlayEnhancer, play.twirl.sbt.SbtTwirl, com.typesafe.sbt.packager.rpm.RpmPlugin, play.sbt.routes.RoutesCompiler, com.typesafe.sbt.packager.debian.DebianPlugin, sbt.plugins.JUnitXmlReportPlugin, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.web.SbtWeb, play.ebean.sbt.PlayEbean, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, com.typesafe.sbt.jse.SbtJsEngine, org.irundaia.sbt.sass.SbtSassify, com.typesafe.sbt.digest.SbtDigest, com.typesafe.sbt.packager.archetypes.jar.LauncherJarPlugin, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, com.typesafe.sbt.jse.SbtJsTask, play.sbt.Play, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript) not found List(play.sbt.PlayJava, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, play.sbt.PlayLogback, play.sbt.forkrun.PlayForkRun)
   :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.packager.docker.DockerPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin, com.typesafe.play.sbt.enhancer.PlayEnhancer, play.twirl.sbt.SbtTwirl, com.typesafe.sbt.packager.rpm.RpmPlugin, play.sbt.routes.RoutesCompiler, com.typesafe.sbt.packager.debian.DebianPlugin, sbt.plugins.JUnitXmlReportPlugin, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.web.SbtWeb, play.ebean.sbt.PlayEbean, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, com.typesafe.sbt.jse.SbtJsEngine, org.irundaia.sbt.sass.SbtSassify, com.typesafe.sbt.digest.SbtDigest, com.typesafe.sbt.packager.archetypes.jar.LauncherJarPlugin, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, com.typesafe.sbt.jse.SbtJsTask, play.sbt.Play, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript, play.sbt.PlayJava, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, play.sbt.PlayLogback, play.sbt.forkrun.PlayForkRun) not found List()
   :: sorted deduced result: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.packager.docker.DockerPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin, com.typesafe.play.sbt.enhancer.PlayEnhancer, play.twirl.sbt.SbtTwirl, com.typesafe.sbt.packager.rpm.RpmPlugin, play.sbt.routes.RoutesCompiler, com.typesafe.sbt.packager.debian.DebianPlugin, sbt.plugins.JUnitXmlReportPlugin, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.web.SbtWeb, play.ebean.sbt.PlayEbean, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, com.typesafe.sbt.jse.SbtJsEngine, org.irundaia.sbt.sass.SbtSassify, com.typesafe.sbt.digest.SbtDigest, com.typesafe.sbt.packager.archetypes.jar.LauncherJarPlugin, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, com.typesafe.sbt.jse.SbtJsTask, play.sbt.Play, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript, play.sbt.PlayJava, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, play.sbt.PlayLogback, play.sbt.forkrun.PlayForkRun)
-[Loading] Done in C:\Users\da.rodriguez15\Documents\414545\Marketplace, returning: (root)
-Set current project to Marketplace (in build file:/C:/Users/da.rodriguez15/Documents/414545/Marketplace/)
+[Loading] Done in C:\Users\fa.vera10\Documents\GitHub\Marketplace, returning: (root)
+Set current project to Marketplace (in build file:/C:/Users/fa.vera10/Documents/GitHub/Marketplace/)
 Reapplying settings...
-Set current project to Marketplace (in build file:/C:/Users/da.rodriguez15/Documents/414545/Marketplace/)
+Set current project to Marketplace (in build file:/C:/Users/fa.vera10/Documents/GitHub/Marketplace/)
 > iflast shell
 > server-send-ready-for-request
+> server-handle-next-server-request
+> {file:/C:/Users/fa.vera10/Documents/GitHub/Marketplace/}root/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@13629721, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 2 s, completed 20-ago-2016 22:27:37
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/fa.vera10/Documents/GitHub/Marketplace/}root/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@17d7d9d4, check cycles: false
+Total time: 0 s, completed 20-ago-2016 22:27:38
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/fa.vera10/Documents/GitHub/Marketplace/}root/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@5b2441bc, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 1 s, completed 20-ago-2016 22:27:39
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/fa.vera10/Documents/GitHub/Marketplace/}root/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@7c88a885, check cycles: false
+Total time: 0 s, completed 20-ago-2016 22:27:39
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@7271346, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set(C:\Users\fa.vera10\Documents\GitHub\Marketplace\app\models\ItemEntity.java)
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\fa.vera10\Documents\GitHub\Marketplace\app\models\ItemEntity.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\fa.vera10\Documents\GitHub\Marketplace\app\models\ItemEntity.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\fa.vera10\Documents\GitHub\Marketplace\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\fa.vera10\Documents\GitHub\Marketplace\target\scala-2.11\classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@77430a07 directly...
+Java compilation took 0.757684 s
+Java analysis took 0.0331327 s
+Java compile + analysis took 0.824188 s
+Invalidating C:\Users\fa.vera10\Documents\GitHub\Marketplace\app\models\ItemEntity.java...
+Invalidating (transitively) by inheritance from C:\Users\fa.vera10\Documents\GitHub\Marketplace\app\models\ItemEntity.java...
+Initial set of included nodes: Set(C:\Users\fa.vera10\Documents\GitHub\Marketplace\app\models\ItemEntity.java)
+Invalidated by transitive inheritance dependency: Set(C:\Users\fa.vera10\Documents\GitHub\Marketplace\app\models\ItemEntity.java)
+The C:\Users\fa.vera10\Documents\GitHub\Marketplace\app\models\ItemEntity.java source file has the following regular definitions changed:
+	.
+All member reference dependencies will be considered within this context.
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 3 s, completed 20-ago-2016 22:32:14
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@73c2a487, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\fa.vera10\Documents\GitHub\Marketplace\app\models\ItemEntity.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\fa.vera10\Documents\GitHub\Marketplace\app\models\ItemEntity.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\fa.vera10\Documents\GitHub\Marketplace\app\models\ItemEntity.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\fa.vera10\Documents\GitHub\Marketplace\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\fa.vera10\Documents\GitHub\Marketplace\target\scala-2.11\classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@3c684084 directly...
+Java compilation took 0.7464032 s
+Java analysis took 0.2269551 s
+Java compile + analysis took 0.9926008 s
+Invalidating C:\Users\fa.vera10\Documents\GitHub\Marketplace\app\models\ItemEntity.java...
+Invalidating (transitively) by inheritance from C:\Users\fa.vera10\Documents\GitHub\Marketplace\app\models\ItemEntity.java...
+Initial set of included nodes: Set(C:\Users\fa.vera10\Documents\GitHub\Marketplace\app\models\ItemEntity.java)
+Invalidated by transitive inheritance dependency: Set(C:\Users\fa.vera10\Documents\GitHub\Marketplace\app\models\ItemEntity.java)
+The C:\Users\fa.vera10\Documents\GitHub\Marketplace\app\models\ItemEntity.java source file has the following regular definitions changed:
+	notify, refresh, findFutureRowCount, nextId, quantity, wait, Model$Find, wishlist_id, setId, insert, equals, serverName, findEachWhile, all, findEach, getProductId, setReadOnly, Model$Finder, db, setQuantity, query, ref, findPagedList, setQuery, byId, setAutofetch, notifyAll, setUseQueryCache, filter, setRawSql, select, getExpressionFactory, setUseCache, <init>, id, on, apply, FINDER, findSet, order, findRowCount, orderBy, setMaxRows, delete, findIds, product_id, fetch, setLoadBeanCache, toString, markAsDirty, setProductId, where, setFirstRow, ItemEntity, getClass, update, type, getQuantity, save, setWishlistId, getId, getWishlistId, findList, setForUpdate, hashCode, deleteById, findMap.
+All member reference dependencies will be considered within this context.
+Name hashing optimization doesn't apply to non-Scala dependency: C:\Users\fa.vera10\Documents\GitHub\Marketplace\app\models\ItemEntity.java
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 3 s, completed 20-ago-2016 22:49:45
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@1d065602, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set(C:\Users\fa.vera10\Documents\GitHub\Marketplace\app\controllers\ItemController.java)
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\fa.vera10\Documents\GitHub\Marketplace\app\controllers\ItemController.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\fa.vera10\Documents\GitHub\Marketplace\app\controllers\ItemController.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\fa.vera10\Documents\GitHub\Marketplace\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\fa.vera10\Documents\GitHub\Marketplace\target\scala-2.11\classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@60f7f3a7 directly...
+Java compilation took 0.4754026 s
+Java analysis took 0.0096946 s
+Java compile + analysis took 0.5089964 s
+Invalidating C:\Users\fa.vera10\Documents\GitHub\Marketplace\app\controllers\ItemController.java...
+Invalidating (transitively) by inheritance from C:\Users\fa.vera10\Documents\GitHub\Marketplace\app\controllers\ItemController.java...
+Initial set of included nodes: Set(C:\Users\fa.vera10\Documents\GitHub\Marketplace\app\controllers\ItemController.java)
+Invalidated by transitive inheritance dependency: Set(C:\Users\fa.vera10\Documents\GitHub\Marketplace\app\controllers\ItemController.java)
+The C:\Users\fa.vera10\Documents\GitHub\Marketplace\app\controllers\ItemController.java source file has the following regular definitions changed:
+	.
+All member reference dependencies will be considered within this context.
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 2 s, completed 20-ago-2016 23:03:37
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@dd416a1, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\fa.vera10\Documents\GitHub\Marketplace\app\controllers\ItemController.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\fa.vera10\Documents\GitHub\Marketplace\app\controllers\ItemController.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\fa.vera10\Documents\GitHub\Marketplace\app\controllers\ItemController.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\fa.vera10\Documents\GitHub\Marketplace\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\fa.vera10\Documents\GitHub\Marketplace\target\scala-2.11\classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@fed139a directly...
+Java compilation took 0.6277838 s
+Java analysis took 0.2057809 s
+Java compile + analysis took 0.8605108 s
+Invalidating C:\Users\fa.vera10\Documents\GitHub\Marketplace\app\controllers\ItemController.java...
+Invalidating (transitively) by inheritance from C:\Users\fa.vera10\Documents\GitHub\Marketplace\app\controllers\ItemController.java...
+Initial set of included nodes: Set(C:\Users\fa.vera10\Documents\GitHub\Marketplace\app\controllers\ItemController.java)
+Invalidated by transitive inheritance dependency: Set(C:\Users\fa.vera10\Documents\GitHub\Marketplace\app\controllers\ItemController.java)
+The C:\Users\fa.vera10\Documents\GitHub\Marketplace\app\controllers\ItemController.java source file has the following regular definitions changed:
+	enumerator, notify, FROM, movedPermanently, CONTENT_LANGUAGE, CREATED, temporaryRedirect, Results$StringChunks$WhenReadyStringChunks, WARNING, CONTINUE, SET_COOKIE2, permanentRedirect, CONTENT_DISPOSITION, lambda$new$4, channel, CONTENT_TYPE, badRequest, lambda$getItems$0, wait, ACCESS_CONTROL_ALLOW_METHODS, USER_AGENT, ctx, HOST, CONTENT_MD5, request, X_FORWARDED_PORT, paymentRequired, BAD_REQUEST, logger, MAX_FORWARDS, X_FORWARDED_HOST, redirect, TRAILER, PROXY_AUTHENTICATE, AUTHORIZATION, CACHE_CONTROL, NOT_IMPLEMENTED, equals, PAYMENT_REQUIRED, RETRY_AFTER, PRECONDITION_FAILED, CONFLICT, ACCEPT_CHARSET, Results$ByteChunks$WhenReadyByteChunks, onReady, VIA, REQUEST_TIMEOUT, MULTIPLE_CHOICES, notFound, MOVED_PERMANENTLY, TE, CONTENT_LOCATION, PARTIAL_CONTENT, lambda$new$5, INSUFFICIENT_STORAGE, lambda$onDisconnected$6, ETAG, LENGTH_REQUIRED, UNAUTHORIZED, UNSUPPORTED_MEDIA_TYPE, REFERER, REQUEST_ENTITY_TOO_LARGE, ORIGIN, ACCEPT_LANGUAGE, NOT_MODIFIED, Results$StringChunks, HTTP_VERSION_NOT_SUPPORTED, ACCESS_CONTROL_ALLOW_ORIGIN, IF_RANGE, IF_UNMODIFIED_SINCE, SWITCHING_PROTOCOLS, callback, TEMPORARY_REDIRECT, CONTENT_LENGTH, SET_COOKIE, notifyAll, AGE, lambda$createItem$4, BAD_GATEWAY, EXPECTATION_FAILED, CONNECTION, FORWARDED, Results$ByteChunks, Results$Chunks$Out, OK, lambda$createItem$5, ACCESS_CONTROL_ALLOW_HEADERS, found, unauthorized, response, FOUND, <init>, DATE, CONTENT_RANGE, TRANSFER_ENCODING, PERMANENT_REDIRECT, TOO_MANY_REQUESTS, PROXY_AUTHORIZATION, GONE, ACCESS_CONTROL_ALLOW_CREDENTIALS, clearLang, getItem, NOT_ACCEPTABLE, status, EXPECT, LOCATION, VARY, WWW_AUTHENTICATE, ItemController, TODO, forbidden, lambda$getItem$3, X_FORWARDED_FOR, access$000, ACCEPTED, NO_CONTENT, disconnected, INTERNAL_SERVER_ERROR, onDisconnected, UPGRADE, getItems, NOT_FOUND, session, ACCEPT_ENCODING, EXPIRES, seeOther, REQUESTED_RANGE_NOT_SATISFIABLE, UPGRADE_REQUIRED, toString, ACCEPT, changeLang, GATEWAY_TIMEOUT, whenReady, SERVER, ACCESS_CONTROL_REQUEST_METHOD, UNPROCESSABLE_ENTITY, ACCESS_CONTROL_MAX_AGE, LAST_MODIFIED, ACCESS_CONTROL_EXPOSE_HEADERS, ACCESS_CONTROL_REQUEST_HEADERS, flash, internalServerError, ok, createItem, ALLOW, COOKIE, IF_MODIFIED_SINCE, getClass, CONTENT_TRANSFER_ENCODING, lang, NON_AUTHORITATIVE_INFORMATION, close, PRAGMA, lambda$getItems$1, IF_MATCH, PROXY_AUTHENTICATION_REQUIRED, RESET_CONTENT, SEE_OTHER, FAILED_DEPENDENCY, CONTENT_ENCODING, RANGE, USE_PROXY, Results$Chunks, REQUEST_URI_TOO_LONG, writable, LOCKED, FORBIDDEN, METHOD_NOT_ALLOWED, write, IF_NONE_MATCH, ACCEPT_RANGES, noContent, X_REQUESTED_WITH, X_FORWARDED_PROTO, MULTI_STATUS, SERVICE_UNAVAILABLE, created, hashCode, lambda$getItem$2.
+All member reference dependencies will be considered within this context.
+Name hashing optimization doesn't apply to non-Scala dependency: C:\Users\fa.vera10\Documents\GitHub\Marketplace\app\controllers\ItemController.java
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 2 s, completed 20-ago-2016 23:10:42
+> server-post-command-cleanup
 > server-handle-next-server-request
 Done executing sbt server engine, result Right(Exit(0))
 Closing listening server socket
@@ -73,4 +295,4 @@ Waiting for socket thread
 Waiting for request processor thread
 Waiting for command engine result
 Returning control to sbt launcher with result Exit(0)
-Closing the 4344@ISIS2503-0069 logs at Sat Aug 20 15:26:09 COT 2016, goodbye.
+Closing the 4340@ISIS2503-65 logs at Sun Aug 21 00:09:28 COT 2016, goodbye.

@@ -15,7 +15,11 @@ GET /products               controllers.ProductController.getProducts
 POST /products				controllers.ProductController.createProduct
 GET   /product/:id         controllers.ProductController.getProduct(id: Long)
 
+#ItemController
 
+GET /items               controllers.ItemController.getItems
+POST /items				controllers.ItemController.createItem
+GET   /item/:id         controllers.ItemController.getItem(id: Long)
 
 #WishListController
 

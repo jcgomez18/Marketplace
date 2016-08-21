@@ -48,11 +48,7 @@ public class ProductController  extends Controller
                         }
                 );
     }
-	public void delete(Long id)
-	{
-		 ProductEntity product =  ProductEntity.FINDER.byId(id);
-		 product.delete();
-	}
+
 	
 	
 	public CompletionStage<Result> createProduct(){
